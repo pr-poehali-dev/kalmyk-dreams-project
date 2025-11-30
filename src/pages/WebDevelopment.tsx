@@ -46,7 +46,7 @@ const WebDevelopment = () => {
               </p>
               <div className="mb-6 rounded-2xl overflow-hidden shadow-xl">
                 <iframe 
-                  src="https://yandex.ru/map-widget/v1/?ll=46.181607%2C46.181607&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE3ODMyNBJj0KDQvtGB0YHQuNGPLCDQoNC10YHQv9GD0LHQu9C40LrQsCDQmtCw0LzQvNGL0LrQuNGPLCDQp9C10YDQvdC-0LfQtdC80LXQu9GM0YHQutC40Lkg0YDQsNC50L7QvSwg0L_QvtGB0ZHQu9C-0Log0J3QsNGA0YvQvS3QpdGD0LTRg9C6LCDRg9C70LjRhtCwIDQwINC70LXRgiDQn9C-0LHQtdC00YssIDEyLCDQutCy0LDRgNGC0LjRgNCwIDEiCg3cXwpCFYE0YkI%2C&z=17"
+                  src="https://yandex.ru/map-widget/v1/?ll=46.546242%2C45.434316&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTMyMzc1NzI5EofQoNC-0YHRgdC40Y8sINCg0LXRgdC_0YPQsdC70LjQutCwINCa0LDQu9C80YvQutC40Y8sINGH0LXRgNC90L7Qt9C10LzQtdC70YzRgdC60LjQuSDRgNCw0LnQvtC9LCDQv9C-0YHRkdC70L7QuiDQndCw0YDRi9C9LdCl0YPQtNGD0LosINGD0LvQuNGG0LAg0LfQsNC80LXRgtC9QdGPIDQwINC70LXRgiDQn9C-0LHQtdC00YssIDEyIgoNLXoKQhUYj2JC&z=17.83"
                   width="100%"
                   height="300"
                   frameBorder="0"
