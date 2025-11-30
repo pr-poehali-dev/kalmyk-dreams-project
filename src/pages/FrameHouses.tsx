@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/33025762-1e1a-4296-924d-3dad7fad50b5.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/13a2db95-4a63-43e1-9c13-fe65d9967105.jpg',
     name: 'Шале 93',
     area: '93.32 м²',
     livingArea: '90 м²',
@@ -18,12 +18,12 @@ const projects = [
     priceFinished: 'от 6 352 000',
     description: 'Одноэтажный дом с панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/33025762-1e1a-4296-924d-3dad7fad50b5.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/13a2db95-4a63-43e1-9c13-fe65d9967105.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c47ea41a-a0eb-4542-80bf-0d12eabf2b49.jpg'
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/102d7dc0-d8f8-4853-a759-542c5718ed97.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bbd22b17-1933-44ea-91cd-9b03dbbfa6fa.jpg',
     name: 'Шале 95',
     area: '97.48 м²',
     livingArea: '73.62 м²',
@@ -34,12 +34,12 @@ const projects = [
     priceFinished: 'от 6 794 000',
     description: 'Одноэтажный дом с панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/102d7dc0-d8f8-4853-a759-542c5718ed97.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bbd22b17-1933-44ea-91cd-9b03dbbfa6fa.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5755eca5-7291-45d8-98a1-d7367c31842e.jpg'
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/181e6b74-e2e0-4e6e-a048-1f8b91a894c7.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9342b514-b112-4a0b-9f7c-cd7015a81a11.jpg',
     name: 'Шале 115',
     area: '115 м²',
     livingArea: '93 м²',
@@ -50,12 +50,12 @@ const projects = [
     priceFinished: 'от 7 191 000',
     description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/181e6b74-e2e0-4e6e-a048-1f8b91a894c7.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9342b514-b112-4a0b-9f7c-cd7015a81a11.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e716922-9b8b-406a-8c8d-9e2ee8c097f1.jpg'
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f520b8b9-228a-4db4-bdbe-20abb8bb3f11.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/336d4946-19f0-4848-8725-6396d62cdd51.jpg',
     name: 'Лесная сказка',
     area: '100 м²',
     livingArea: '96.72 м²',
@@ -66,12 +66,12 @@ const projects = [
     priceFinished: 'от 8 020 000',
     description: 'Одноэтажный дом с террасой. 3 спальни 9-15 м², кухня-гостиная 31 м² со вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f520b8b9-228a-4db4-bdbe-20abb8bb3f11.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/336d4946-19f0-4848-8725-6396d62cdd51.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/51d40278-27a8-4d1d-ac56-c2cb8bd40a90.jpg'
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/29c883a6-c86e-40f0-8da7-9786e7c2564f.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/26b22dfd-c882-466a-a0d5-591fe2801376.jpg',
     name: 'Афрейм',
     area: '90 м²',
     livingArea: '75 м²',
@@ -82,12 +82,12 @@ const projects = [
     priceFinished: 'от 5 400 000',
     description: 'Оригинальный А-образный дом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/29c883a6-c86e-40f0-8da7-9786e7c2564f.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/26b22dfd-c882-466a-a0d5-591fe2801376.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/03988cd6-4597-4881-b110-6114c1e5d641.jpg'
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bc55c2d4-b37d-4ee0-a758-b321ee9b25bf.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/dba83ae5-da41-4692-960c-29df1ba69893.jpg',
     name: 'Поляна 120',
     area: '119.49 м²',
     livingArea: '105 м²',
@@ -98,7 +98,7 @@ const projects = [
     priceFinished: 'от 7 780 000',
     description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bc55c2d4-b37d-4ee0-a758-b321ee9b25bf.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/dba83ae5-da41-4692-960c-29df1ba69893.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/3d7b3130-fe95-40cc-9bd5-949c0ed9d442.jpg'
     ],
   },
