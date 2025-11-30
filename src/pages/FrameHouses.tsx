@@ -67,16 +67,16 @@ const projects = [
     description: 'Оригинальный А-образный дом',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6647c270-754d-4976-8dce-e86ec4c23a02.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bc55c2d4-b37d-4ee0-a758-b321ee9b25bf.jpg',
     name: 'Поляна 120',
-    area: '120 м²',
+    area: '119.49 м²',
     livingArea: '105 м²',
-    dimensions: '11 × 12 м',
+    dimensions: '10.5 × 14 м',
     floors: 1,
-    rooms: 4,
-    price: 'от 5 400 000',
-    priceFinished: 'от 7 600 000',
-    description: 'Просторный семейный дом с большой площадью',
+    rooms: 3,
+    price: 'от 5 353 000',
+    priceFinished: 'от 7 780 000',
+    description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
   },
 ];
 
