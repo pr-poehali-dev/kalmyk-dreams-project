@@ -192,7 +192,7 @@ export default function Index() {
                 href="/frame-houses"
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
-                Каркасные дома
+                Строительство каркасных домов
               </a>
               <a
                 href="/web-development"
