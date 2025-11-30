@@ -685,14 +685,8 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="font-heading font-bold mb-1">Штаб-квартира</h4>
-                        <p className="text-sm text-muted-foreground mb-2">
-                          <span className="line-through opacity-60">359230, Республика Калмыкия, р-н Черноземельский, п Нарын Худук, ул 40 лет Победы, д. 12, кв. 1</span>
-                        </p>
-                        <p className="text-sm text-muted-foreground mb-1">
-                          359404, Республика Калмыкия, р-н Сарпинский, п Каажихин, ул Зеленая, д. 20/2
-                        </p>
-                        <p className="text-xs text-muted-foreground italic">
-                          * Переехали с 11.07.2025
+                        <p className="text-sm text-muted-foreground">
+                          Инвестор Республика Калмыкия с 23.11.2023 г. по адресу 359230, Республика Калмыкия, р-н Черноземельский, п Нарын Худук, ул 40 лет Победы, д. 12, кв. 1 переехала с 11.07.2025 на новый адрес 359404, Республика Калмыкия, р-н Сарпинский, п Каажихин, ул Зеленая, д. 20/2
                         </p>
                       </div>
                     </div>
