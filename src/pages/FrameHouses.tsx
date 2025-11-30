@@ -185,7 +185,14 @@ const FrameHouses = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   };
 
@@ -194,7 +201,7 @@ const FrameHouses = () => {
     if (hash) {
       setTimeout(() => {
         scrollToSection(hash);
-      }, 100);
+      }, 300);
     }
   }, []);
 
