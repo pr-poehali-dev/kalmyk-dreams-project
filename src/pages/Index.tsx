@@ -179,7 +179,7 @@ export default function Index() {
               <span className="font-heading font-bold text-xl">ИП Сербин</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
-              {['О компании', 'Проекты', 'Преимущества', 'Технологии', 'Отзывы', 'Контакты'].map((item) => (
+              {['О компании', 'Проекты', 'Преимущества', 'Технологии'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
@@ -190,10 +190,19 @@ export default function Index() {
               ))}
               <a
                 href="/web-development"
-                className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+                className="text-sm font-medium hover:text-primary transition-colors"
               >
                 Веб-разработка
               </a>
+              {['Отзывы', 'Контакты'].map((item) => (
+                <button
+                  key={item}
+                  onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
+                  className="text-sm font-medium hover:text-primary transition-colors"
+                >
+                  {item}
+                </button>
+              ))}
             </div>
             <Button size="lg" className="hidden md:flex bg-primary">
               <Icon name="Phone" size={18} className="mr-2" />
