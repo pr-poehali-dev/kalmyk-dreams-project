@@ -192,7 +192,7 @@ export default function Index() {
                 href="/web-development"
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
-                Веб-разработка
+                Создание веб-ресурсов
               </a>
               {['Отзывы', 'Контакты'].map((item) => (
                 <button
