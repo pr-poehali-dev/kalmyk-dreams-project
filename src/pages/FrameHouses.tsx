@@ -17,6 +17,10 @@ const projects = [
     price: 'от 4 374 000',
     priceFinished: 'от 6 352 000',
     description: 'Одноэтажный дом с панорамными окнами и вторым светом',
+    gallery: [
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/33025762-1e1a-4296-924d-3dad7fad50b5.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c47ea41a-a0eb-4542-80bf-0d12eabf2b49.jpg'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/102d7dc0-d8f8-4853-a759-542c5718ed97.jpg',
@@ -29,6 +33,10 @@ const projects = [
     price: 'от 4 687 000',
     priceFinished: 'от 6 794 000',
     description: 'Современный одноэтажный дом в стиле шале',
+    gallery: [
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/102d7dc0-d8f8-4853-a759-542c5718ed97.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5755eca5-7291-45d8-98a1-d7367c31842e.jpg'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/181e6b74-e2e0-4e6e-a048-1f8b91a894c7.jpg',
@@ -41,6 +49,10 @@ const projects = [
     price: 'от 5 243 000',
     priceFinished: 'от 7 191 000',
     description: 'Просторный дом с террасой в стиле шале',
+    gallery: [
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/181e6b74-e2e0-4e6e-a048-1f8b91a894c7.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e716922-9b8b-406a-8c8d-9e2ee8c097f1.jpg'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f520b8b9-228a-4db4-bdbe-20abb8bb3f11.jpg',
@@ -53,6 +65,10 @@ const projects = [
     price: 'от 4 500 000',
     priceFinished: 'от 6 500 000',
     description: 'Уютный дом для жизни в окружении природы',
+    gallery: [
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f520b8b9-228a-4db4-bdbe-20abb8bb3f11.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/51d40278-27a8-4d1d-ac56-c2cb8bd40a90.jpg'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/29c883a6-c86e-40f0-8da7-9786e7c2564f.jpg',
@@ -65,6 +81,10 @@ const projects = [
     price: 'от 3 800 000',
     priceFinished: 'от 5 400 000',
     description: 'Оригинальный А-образный дом',
+    gallery: [
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/29c883a6-c86e-40f0-8da7-9786e7c2564f.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/03988cd6-4597-4881-b110-6114c1e5d641.jpg'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bc55c2d4-b37d-4ee0-a758-b321ee9b25bf.jpg',
@@ -77,6 +97,10 @@ const projects = [
     price: 'от 5 353 000',
     priceFinished: 'от 7 780 000',
     description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
+    gallery: [
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bc55c2d4-b37d-4ee0-a758-b321ee9b25bf.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/3d7b3130-fe95-40cc-9bd5-949c0ed9d442.jpg'
+    ],
   },
 ];
 
