@@ -44,6 +44,13 @@ const WebDevelopment = () => {
               <p className="text-xl text-muted-foreground mb-4">
                 Для бизнеса клиентов по всей России с штаб-квартирой в Калмыкии
               </p>
+              <div className="mb-6">
+                <img 
+                  src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/69d34551-97fd-401c-8a9e-4ac2bd64803e.jpg"
+                  alt="Нарын-Худук, ул. 40 лет Победы, д. 12"
+                  className="rounded-2xl shadow-xl w-full"
+                />
+              </div>
               <p className="text-lg text-muted-foreground mb-8">
                 На берегу Каспийского моря мы создаём цифровые решения, которые помогают вашему бизнесу расти и развиваться в онлайн-пространстве
               </p>
@@ -103,13 +110,7 @@ const WebDevelopment = () => {
             <p className="text-lg text-muted-foreground mb-8">
               Расположенная на берегу Каспийского моря, Республика Калмыкия открывает уникальные возможности для развития бизнеса. Мы помогаем не только местным предпринимателям, но и бизнесу по всей России выйти на новый уровень через создание качественных веб-ресурсов и digital-продвижение.
             </p>
-            <div className="mb-12">
-              <img 
-                src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/69d34551-97fd-401c-8a9e-4ac2bd64803e.jpg"
-                alt="Нарын-Худук, ул. 40 лет Победы, д. 12"
-                className="rounded-2xl shadow-xl w-full max-w-3xl mx-auto"
-              />
-            </div>
+
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">100+</div>
