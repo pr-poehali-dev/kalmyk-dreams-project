@@ -265,6 +265,80 @@ const WebDevelopment = () => {
         </div>
       </section>
 
+      {/* Advertising Content Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="font-heading font-bold text-3xl lg:text-5xl mb-6 text-center">
+              Рекламный контент на собственных сайтах
+            </h2>
+            <p className="text-lg text-muted-foreground mb-12 text-center max-w-3xl mx-auto">
+              Размещение рекламного контента на собственных сайтах Клиента и размещение рекламного контента на собственных сайтах других бизнес-партнеров
+            </p>
+
+            <div className="bg-background rounded-2xl p-8 shadow-lg mb-8">
+              <h3 className="font-heading font-bold text-2xl mb-6">
+                Стандартный бизнес-процесс размещения рекламного контента
+              </h3>
+
+              <div className="space-y-6">
+                <div>
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center flex-shrink-0 font-bold">
+                      1
+                    </div>
+                    <div>
+                      <p className="text-muted-foreground">
+                        Размещение рекламного контента Клиента на собственных сайтах - это процесс партнерского маркетинга, при котором компания размещает свои рекламные материалы на сайтах других компаний или блогеров с целью привлечения новых клиентов и увеличения продаж.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center flex-shrink-0 font-bold">
+                      2
+                    </div>
+                    <div>
+                      <p className="text-muted-foreground">
+                        Для начала этого процесса Клиент ищет потенциальных партнеров, у которых есть целевая аудитория, которую он хочет привлечь. Затем предлагает им размещение своего рекламного контента на их сайтах или блогах, обычно за определенную плату или комиссионное вознаграждение.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center flex-shrink-0 font-bold">
+                      3
+                    </div>
+                    <div>
+                      <p className="text-muted-foreground">
+                        После согласования условий размещения, Клиент предоставляет свои рекламные материалы, такие как баннеры, текстовые объявления или специальные ссылки, которые партнер (Исполнитель) размещает на своем сайте. Затем компания отслеживает эффективность своей рекламы на сайтах партнеров, используя специальные инструменты аналитики, и оплачивает партнерам за привлеченных клиентов или посетителей.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center flex-shrink-0 font-bold">
+                      4
+                    </div>
+                    <div>
+                      <p className="text-muted-foreground">
+                        Размещение рекламного контента на сайтах партнеров является эффективным способом привлечения новых клиентов и увеличения продаж Клиентов, так как позволяет им достичь целевой аудитории через доверенные источники и увеличить свою видимость в интернете.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
