@@ -328,34 +328,36 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-start space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="Key" size={32} className="text-primary" />
+            <a href="/real-estate-rental" className="block">
+              <Card className="hover:shadow-xl transition-all duration-300 cursor-pointer h-full">
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Icon name="Key" size={32} className="text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-heading font-bold text-2xl mb-2">
+                        Аренда недвижимости
+                      </h3>
+                      <Badge className="mb-3 bg-primary/20 text-primary">
+                        Ростовская область
+                      </Badge>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-heading font-bold text-2xl mb-2">
-                      Аренда недвижимости
-                    </h3>
-                    <Badge className="mb-3 bg-primary/20 text-primary">
-                      Ростовская область
-                    </Badge>
+                  <p className="text-muted-foreground mb-4">
+                    Сдача жилой недвижимости в Ростовской области для комфортного проживания на длительный срок с полным набором удобств и инфраструктурой
+                  </p>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <Icon name="MapPin" size={16} className="text-primary" />
+                    <span>Локация: Ростовская область</span>
                   </div>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Сдача жилой недвижимости в Ростовской области для комфортного проживания на длительный срок с полным набором удобств и инфраструктурой
-                </p>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                  <Icon name="MapPin" size={16} className="text-primary" />
-                  <span>Локация: Ростовская область</span>
-                </div>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
-                  <Icon name="Clock" size={16} className="text-primary" />
-                  <span>Долгосрочная аренда</span>
-                </div>
-              </CardContent>
-            </Card>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
+                    <Icon name="Clock" size={16} className="text-primary" />
+                    <span>Долгосрочная аренда</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </a>
 
             <a href="/web-development" className="block">
               <Card className="hover:shadow-xl transition-all duration-300 cursor-pointer h-full">
