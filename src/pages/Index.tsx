@@ -275,30 +275,32 @@ export default function Index() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-start space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="Home" size={32} className="text-primary" />
+            <a href="/frame-houses" className="block">
+              <Card className="hover:shadow-xl transition-all duration-300 cursor-pointer h-full">
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Icon name="Home" size={32} className="text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-heading font-bold text-2xl mb-2">
+                        Строительство каркасных домов
+                      </h3>
+                      <Badge className="mb-3 bg-primary/20 text-primary">
+                        Основное направление
+                      </Badge>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-heading font-bold text-2xl mb-2">
-                      Строительство каркасных домов
-                    </h3>
-                    <Badge className="mb-3 bg-primary/20 text-primary">
-                      Основное направление
-                    </Badge>
+                  <p className="text-muted-foreground mb-4">
+                    Возведение энергоэффективных каркасных жилых домов под ключ по всей территории России с применением современных технологий и качественных материалов
+                  </p>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <Icon name="Building" size={16} className="text-primary" />
+                    <span>Клиентский офис: г. Зеленоград</span>
                   </div>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Возведение энергоэффективных каркасных жилых домов под ключ по всей территории России с применением современных технологий и качественных материалов
-                </p>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                  <Icon name="Building" size={16} className="text-primary" />
-                  <span>Клиентский офис: г. Зеленоград</span>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </a>
 
             <Card className="hover:shadow-xl transition-all duration-300">
               <CardContent className="p-8">
