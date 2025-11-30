@@ -179,10 +179,10 @@ export default function Index() {
               <span className="font-heading font-bold text-xl">ИП Сербин</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
-              {['Проекты', 'Преимущества', 'Технологии', 'Отзывы', 'Контакты'].map((item) => (
+              {['О компании', 'Проекты', 'Преимущества', 'Технологии', 'Отзывы', 'Контакты'].map((item) => (
                 <button
                   key={item}
-                  onClick={() => scrollToSection(item.toLowerCase())}
+                  onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
                   className="text-sm font-medium hover:text-primary transition-colors"
                 >
                   {item}
@@ -236,6 +236,173 @@ export default function Index() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="о-компании" className="py-20 px-4">
+        <div className="container mx-auto">
+          <div className="text-center mb-12 animate-fade-in">
+            <Badge className="mb-4 bg-primary text-white text-base px-6 py-2">
+              О нас
+            </Badge>
+            <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4">
+              ИП Сербин Алексей Юрьевич
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-2">
+              ОГРНИП 305616834600037
+            </p>
+            <p className="text-base text-muted-foreground max-w-3xl mx-auto">
+              Многопрофильная компания с 2005 года, специализирующаяся на строительстве, недвижимости и IT-решениях
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <Card className="hover:shadow-xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="Home" size={32} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-2xl mb-2">
+                      Строительство каркасных домов
+                    </h3>
+                    <Badge className="mb-3 bg-primary/20 text-primary">
+                      Основное направление
+                    </Badge>
+                  </div>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Возведение энергоэффективных каркасных жилых домов под ключ по всей территории России с применением современных технологий и качественных материалов
+                </p>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                  <Icon name="MapPin" size={16} className="text-primary" />
+                  <span>Штаб-квартира: Республика Калмыкия</span>
+                </div>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
+                  <Icon name="Building" size={16} className="text-primary" />
+                  <span>Офис: Москва, Зеленоград</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="TreePine" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-2xl mb-2">
+                      Продажа земельных участков
+                    </h3>
+                    <Badge className="mb-3 bg-secondary/20 text-secondary">
+                      По всей России
+                    </Badge>
+                  </div>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Подбор и продажа земельных участков в перспективных районах по всей России с готовой инфраструктурой и документами для строительства жилых домов
+                </p>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                  <Icon name="MapPin" size={16} className="text-secondary" />
+                  <span>География: вся Россия</span>
+                </div>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
+                  <Icon name="FileCheck" size={16} className="text-secondary" />
+                  <span>Полный пакет документов</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="Key" size={32} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-2xl mb-2">
+                      Аренда недвижимости
+                    </h3>
+                    <Badge className="mb-3 bg-primary/20 text-primary">
+                      Ростовская область
+                    </Badge>
+                  </div>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Сдача жилой недвижимости в Ростовской области для комфортного проживания на длительный срок с полным набором удобств и инфраструктурой
+                </p>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                  <Icon name="MapPin" size={16} className="text-primary" />
+                  <span>Локация: Ростовская область</span>
+                </div>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
+                  <Icon name="Clock" size={16} className="text-primary" />
+                  <span>Долгосрочная аренда</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="Monitor" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-2xl mb-2">
+                      Создание веб-ресурсов
+                    </h3>
+                    <Badge className="mb-3 bg-secondary/20 text-secondary">
+                      IT-решения
+                    </Badge>
+                  </div>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Разработка современных веб-ресурсов и приложений для бизнеса клиентов с использованием актуальных технологий и индивидуальным подходом
+                </p>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                  <Icon name="MapPin" size={16} className="text-secondary" />
+                  <span>Штаб-квартира: Республика Калмыкия</span>
+                </div>
+                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
+                  <Icon name="Code" size={16} className="text-secondary" />
+                  <span>Полный цикл разработки</span>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-none">
+            <CardContent className="p-8 md:p-12 text-center">
+              <h3 className="font-heading font-bold text-3xl mb-4">
+                Наши офисы
+              </h3>
+              <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <Icon name="Building2" size={24} className="text-white" />
+                  </div>
+                  <h4 className="font-heading font-bold text-xl mb-2">Штаб-квартира</h4>
+                  <p className="text-sm text-muted-foreground mb-2">Республика Калмыкия</p>
+                  <p className="text-xs text-muted-foreground">
+                    359230, р-н Черноземельский, п Нарын Худук, ул 40 лет Победы, д. 12, кв. 1
+                  </p>
+                </div>
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <Icon name="Building" size={24} className="text-white" />
+                  </div>
+                  <h4 className="font-heading font-bold text-xl mb-2">Офис продаж</h4>
+                  <p className="text-sm text-muted-foreground mb-2">Москва, Зеленоград</p>
+                  <p className="text-xs text-muted-foreground">
+                    Центр строительства и недвижимости
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
