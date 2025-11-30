@@ -188,6 +188,12 @@ export default function Index() {
                   {item}
                 </button>
               ))}
+              <a
+                href="/web-development"
+                className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+              >
+                Веб-разработка
+              </a>
             </div>
             <Button size="lg" className="hidden md:flex bg-primary">
               <Icon name="Phone" size={18} className="mr-2" />
