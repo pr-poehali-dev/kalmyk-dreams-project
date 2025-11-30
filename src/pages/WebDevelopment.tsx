@@ -46,7 +46,7 @@ const WebDevelopment = () => {
               </p>
               <div className="mb-6">
                 <img 
-                  src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/69d34551-97fd-401c-8a9e-4ac2bd64803e.jpg"
+                  src="https://cdn.poehali.dev/files/0e8d92b3-0096-4c7a-a6c2-a4ce48ce0fe6.jpg"
                   alt="Нарын-Худук, ул. 40 лет Победы, д. 12"
                   className="rounded-2xl shadow-xl w-full"
                 />
