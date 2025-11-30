@@ -105,8 +105,8 @@ const WebDevelopment = () => {
             </p>
             <div className="mb-12">
               <img 
-                src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/7e8fd9dc-5505-4969-aba4-902aec1236c2.jpg"
-                alt="Степи Калмыкии"
+                src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/69d34551-97fd-401c-8a9e-4ac2bd64803e.jpg"
+                alt="Нарын-Худук, ул. 40 лет Победы, д. 12"
                 className="rounded-2xl shadow-xl w-full max-w-3xl mx-auto"
               />
             </div>
