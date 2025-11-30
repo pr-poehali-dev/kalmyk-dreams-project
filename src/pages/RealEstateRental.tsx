@@ -84,23 +84,32 @@ const RealEstateRental = () => {
 
       <section className="py-20 lg:py-32">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="font-heading font-bold text-4xl lg:text-6xl mb-6">
-              Аренда недвижимости
-            </h1>
-            <p className="text-xl text-muted-foreground mb-4">
-              Комфортное жилье в Ростовской области для длительного проживания
-            </p>
-            <p className="text-lg text-muted-foreground mb-8">
-              Предлагаем квартиры и дома с полным набором удобств, развитой инфраструктурой и официальным оформлением документов
-            </p>
-            <div className="flex items-center justify-center space-x-2 text-muted-foreground mb-8">
-              <Icon name="MapPin" size={20} className="text-primary" />
-              <span>Локация: Ростовская область</span>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="font-heading font-bold text-4xl lg:text-6xl mb-6">
+                Аренда недвижимости
+              </h1>
+              <p className="text-xl text-muted-foreground mb-4">
+                Комфортное жилье в Ростовской области для длительного проживания
+              </p>
+              <p className="text-lg text-muted-foreground mb-8">
+                Предлагаем квартиры и дома с полным набором удобств, развитой инфраструктурой и официальным оформлением документов
+              </p>
+              <div className="flex items-center space-x-2 text-muted-foreground mb-8">
+                <Icon name="MapPin" size={20} className="text-primary" />
+                <span>Локация: Ростовская область</span>
+              </div>
+              <Button size="lg" className="rounded-full">
+                Посмотреть объекты
+              </Button>
             </div>
-            <Button size="lg" className="rounded-full">
-              Посмотреть объекты
-            </Button>
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/b4b5a573-840e-42e8-9586-fdb10dfc1004.jpg"
+                alt="Аренда жилой недвижимости"
+                className="rounded-2xl shadow-2xl w-full"
+              />
+            </div>
           </div>
         </div>
       </section>
