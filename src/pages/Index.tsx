@@ -685,8 +685,11 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="font-heading font-bold mb-1">Штаб-квартира</h4>
-                        <p className="text-sm text-muted-foreground">
-                          359230, Республика Калмыкия, р-н Черноземельский, п Нарын Худук, ул 40 лет Победы, д. 12, кв. 1
+                        <p className="text-sm text-muted-foreground mb-2">
+                          359404, Республика Калмыкия, р-н Сарпинский, п Каажихин, ул Зеленая, д. 20/2
+                        </p>
+                        <p className="text-xs text-muted-foreground italic">
+                          * С 11.07.2025 по новому адресу
                         </p>
                       </div>
                     </div>
