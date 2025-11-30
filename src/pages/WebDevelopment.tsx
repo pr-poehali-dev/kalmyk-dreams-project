@@ -44,13 +44,6 @@ const WebDevelopment = () => {
               <p className="text-xl text-muted-foreground mb-4">
                 Для бизнеса клиентов по всей России с штаб-квартирой в Калмыкии
               </p>
-              <div className="mb-6">
-                <img 
-                  src="https://cdn.poehali.dev/files/0e8d92b3-0096-4c7a-a6c2-a4ce48ce0fe6.jpg"
-                  alt="Нарын-Худук, ул. 40 лет Победы, д. 12"
-                  className="rounded-2xl shadow-xl w-full"
-                />
-              </div>
               <p className="text-lg text-muted-foreground mb-8">
                 На берегу Каспийского моря мы создаём цифровые решения, которые помогают вашему бизнесу расти и развиваться в онлайн-пространстве
               </p>
