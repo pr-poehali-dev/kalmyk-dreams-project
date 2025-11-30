@@ -380,10 +380,18 @@ export default function Index() {
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mx-auto mb-4">
                     <Icon name="Building2" size={24} className="text-white" />
                   </div>
-                  <h4 className="font-heading font-bold text-xl mb-2">Штаб-квартира</h4>
-                  <p className="text-sm text-muted-foreground mb-2">Республика Калмыкия</p>
+                  <h4 className="font-heading font-bold text-xl mb-2">Штаб-квартира инвестора с 23.11.2023</h4>
                   <p className="text-xs text-muted-foreground">
-                    359230, р-н Черноземельский, п Нарын Худук, ул 40 лет Победы, д. 12, кв. 1
+                    359230, Республика Калмыкия, р-н Черноземельский, п Нарын Худук, ул 40 лет Победы, д. 12, кв. 1
+                  </p>
+                </div>
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <Icon name="Building2" size={24} className="text-white" />
+                  </div>
+                  <h4 className="font-heading font-bold text-xl mb-2">Штаб-квартира инвестора с 11.07.2025</h4>
+                  <p className="text-xs text-muted-foreground">
+                    359404, Республика Калмыкия, р-н Сарпинский, п Каажихин, ул Зеленая, д. 20/2
                   </p>
                 </div>
                 <div className="bg-white rounded-xl p-6 shadow-md">
@@ -391,7 +399,6 @@ export default function Index() {
                     <Icon name="Building" size={24} className="text-white" />
                   </div>
                   <h4 className="font-heading font-bold text-xl mb-2">Клиентский офис</h4>
-                  <p className="text-sm text-muted-foreground mb-2">Москва, Зеленоград</p>
                   <p className="text-xs text-muted-foreground">
                     124482, Россия, г. Зеленоград, Савелкинский проезд, дом 4
                   </p>
