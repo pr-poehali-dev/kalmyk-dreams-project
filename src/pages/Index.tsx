@@ -225,10 +225,12 @@ export default function Index() {
               Каркасные дома под ключ по всей России. Энергоэффективные технологии и гарантия качества
             </p>
             <div className="flex flex-wrap gap-4 justify-center mb-12">
-              <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90">
-                <Icon name="Home" size={22} className="mr-2" />
-                Смотреть проекты домов
-              </Button>
+              <a href="/frame-houses#проекты">
+                <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90">
+                  <Icon name="Home" size={22} className="mr-2" />
+                  Смотреть проекты домов
+                </Button>
+              </a>
               <Button size="lg" variant="outline" className="text-lg px-8 py-6">
                 <Icon name="Calculator" size={22} className="mr-2" />
                 Рассчитать стоимость
