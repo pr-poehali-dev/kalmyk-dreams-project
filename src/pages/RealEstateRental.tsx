@@ -114,6 +114,123 @@ const RealEstateRental = () => {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-heading font-bold text-3xl lg:text-5xl text-center mb-8">
+              О сервисе аренды
+            </h2>
+            
+            <Card className="mb-8">
+              <CardContent className="p-8">
+                <p className="text-lg leading-relaxed mb-6">
+                  Сдача в аренду собственной жилой недвижимости в Ростовской области.
+                </p>
+                <p className="text-lg leading-relaxed">
+                  Договора заключаются в основном онлайн через сервисы подписания документов физическими лицами простой электронной подписью (ПЭП) на основании ст. 5 федерального закона 63-ФЗ «Об электронной подписи» от 06.04.2011 года или по нотариальной доверенности моим родственником.
+                </p>
+              </CardContent>
+            </Card>
+
+            <h3 className="font-heading font-bold text-2xl lg:text-3xl mb-6">
+              Стандартный бизнес-процесс самозаселения
+            </h3>
+
+            <div className="space-y-6">
+              <Card className="border-l-4 border-l-primary">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold flex-shrink-0">
+                      1
+                    </div>
+                    <div>
+                      <p className="text-lg">
+                        При отправке заявки арендатор подписывает договор.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-l-4 border-l-primary">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold flex-shrink-0">
+                      2
+                    </div>
+                    <div>
+                      <p className="text-lg">
+                        За один день до заезда арендатор получает пошаговую инструкцию по заселению.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-l-4 border-l-primary">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold flex-shrink-0">
+                      3
+                    </div>
+                    <div>
+                      <p className="text-lg">
+                        В день заезда арендатор следует инструкции и вводит нужный код домофона, чтобы попасть в подъезд.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-l-4 border-l-primary">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold flex-shrink-0">
+                      4
+                    </div>
+                    <div>
+                      <p className="text-lg">
+                        Арендатор берет ключи в почтовом ящике, указав код на замке, или поднимается на необходимый этаж, находит нужную квартиру и видит специальный кейбокс рядом с дверью. Он вводит код из инструкции и попадает внутрь.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-l-4 border-l-primary">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold flex-shrink-0">
+                      5
+                    </div>
+                    <div>
+                      <p className="text-lg">
+                        При заселении владелец напоминает арендатору об оплате полной стоимости аренды и присылает ему заранее основные правила проживания и ответы на распространенные вопросы (где посмотреть пароль Wi-Fi, где находится утюг, есть ли в квартире фен и др.). Арендатор перечисляет по безналичному расчету полную стоимость аренды за месяц.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-l-4 border-l-primary">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold flex-shrink-0">
+                      6
+                    </div>
+                    <div>
+                      <p className="text-lg">
+                        В день перед выездом арендодатель уточняет у арендатора время выселения и отправляет ему письмо с инструкцией о том, как оставить ключ.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-secondary/5">
         <div className="container mx-auto px-4">
           <h2 className="font-heading font-bold text-3xl lg:text-5xl text-center mb-4">
