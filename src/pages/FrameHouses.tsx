@@ -32,7 +32,7 @@ const projects = [
     rooms: 3,
     price: 'от 4 687 000',
     priceFinished: 'от 6 794 000',
-    description: 'Современный одноэтажный дом в стиле шале',
+    description: 'Одноэтажный дом с панорамными окнами и вторым светом',
     gallery: [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/102d7dc0-d8f8-4853-a759-542c5718ed97.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5755eca5-7291-45d8-98a1-d7367c31842e.jpg'
@@ -48,7 +48,7 @@ const projects = [
     rooms: 3,
     price: 'от 5 243 000',
     priceFinished: 'от 7 191 000',
-    description: 'Просторный дом с террасой в стиле шале',
+    description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
     gallery: [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/181e6b74-e2e0-4e6e-a048-1f8b91a894c7.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e716922-9b8b-406a-8c8d-9e2ee8c097f1.jpg'
@@ -59,12 +59,12 @@ const projects = [
     name: 'Лесная сказка',
     area: '100 м²',
     livingArea: '96.72 м²',
-    dimensions: '10 × 10 м',
+    dimensions: '9 × 12.5 м',
     floors: 1,
     rooms: 3,
-    price: 'от 4 500 000',
-    priceFinished: 'от 6 500 000',
-    description: 'Уютный дом для жизни в окружении природы',
+    price: 'от 5 955 000',
+    priceFinished: 'от 8 020 000',
+    description: 'Одноэтажный дом с террасой. 3 спальни 9-15 м², кухня-гостиная 31 м² со вторым светом',
     gallery: [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f520b8b9-228a-4db4-bdbe-20abb8bb3f11.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/51d40278-27a8-4d1d-ac56-c2cb8bd40a90.jpg'
