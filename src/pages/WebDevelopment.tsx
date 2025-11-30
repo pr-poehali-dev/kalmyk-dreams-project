@@ -103,6 +103,13 @@ const WebDevelopment = () => {
             <p className="text-lg text-muted-foreground mb-8">
               Расположенная на берегу Каспийского моря, Республика Калмыкия открывает уникальные возможности для развития бизнеса. Мы помогаем не только местным предпринимателям, но и бизнесу по всей России выйти на новый уровень через создание качественных веб-ресурсов и digital-продвижение.
             </p>
+            <div className="mb-12">
+              <img 
+                src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/129af197-6d76-41b4-4982-45e5ed441dfd.jpg"
+                alt="Нарын-Худук, Калмыкия"
+                className="rounded-2xl shadow-xl w-full max-w-3xl mx-auto"
+              />
+            </div>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">100+</div>
