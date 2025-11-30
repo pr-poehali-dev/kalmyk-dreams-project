@@ -182,15 +182,35 @@ const FrameHouses = () => {
     }
   ];
 
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
-            <Icon name="ArrowLeft" size={20} />
-            <span className="font-heading font-bold text-xl">Назад</span>
-          </Link>
+      <header className="border-b sticky top-0 bg-white/95 backdrop-blur-sm z-50">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex items-center justify-between mb-4">
+            <Link to="/" className="flex items-center space-x-2">
+              <Icon name="ArrowLeft" size={20} />
+              <span className="font-heading font-bold text-xl">Назад</span>
+            </Link>
+          </div>
+          <div className="flex items-center space-x-6 overflow-x-auto">
+            {['Преимущества', 'Проекты', 'Технологии', 'Этапы'].map((item) => (
+              <button
+                key={item}
+                onClick={() => scrollToSection(item.toLowerCase())}
+                className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap py-2 border-b-2 border-transparent hover:border-primary"
+              >
+                {item}
+              </button>
+            ))}
+          </div>
         </div>
       </header>
 
@@ -228,7 +248,7 @@ const FrameHouses = () => {
       </section>
 
       {/* Advantages Section */}
-      <section className="py-20 bg-secondary/5">
+      <section id="преимущества" className="py-20 bg-secondary/5">
         <div className="container mx-auto px-4">
           <h2 className="font-heading font-bold text-3xl lg:text-5xl text-center mb-4">
             Преимущества каркасных домов
@@ -258,7 +278,7 @@ const FrameHouses = () => {
       </section>
 
       {/* Projects Section */}
-      <section className="py-20 bg-secondary/5">
+      <section id="проекты" className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-secondary text-white text-base px-6 py-2">
@@ -405,7 +425,7 @@ const FrameHouses = () => {
       </section>
 
       {/* Technologies Section */}
-      <section className="py-20">
+      <section id="технологии" className="py-20 bg-secondary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-secondary text-white text-base px-6 py-2">
@@ -439,7 +459,7 @@ const FrameHouses = () => {
       </section>
 
       {/* Stages Section */}
-      <section className="py-20 bg-secondary/5">
+      <section id="этапы" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="font-heading font-bold text-3xl lg:text-5xl text-center mb-4">
             Этапы строительства
