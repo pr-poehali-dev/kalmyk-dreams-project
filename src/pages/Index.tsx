@@ -358,34 +358,36 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-start space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="Monitor" size={32} className="text-secondary" />
+            <a href="/web-development" className="block">
+              <Card className="hover:shadow-xl transition-all duration-300 cursor-pointer h-full">
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Icon name="Monitor" size={32} className="text-secondary" />
+                    </div>
+                    <div>
+                      <h3 className="font-heading font-bold text-2xl mb-2">
+                        Создание веб-ресурсов
+                      </h3>
+                      <Badge className="mb-3 bg-secondary/20 text-secondary">
+                        IT-решения
+                      </Badge>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-heading font-bold text-2xl mb-2">
-                      Создание веб-ресурсов
-                    </h3>
-                    <Badge className="mb-3 bg-secondary/20 text-secondary">
-                      IT-решения
-                    </Badge>
+                  <p className="text-muted-foreground mb-4">
+                    Разработка современных веб-ресурсов и приложений для бизнеса клиентов с использованием актуальных технологий и индивидуальным подходом
+                  </p>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <Icon name="MapPin" size={16} className="text-secondary" />
+                    <span>Штаб-квартира: Республика Калмыкия</span>
                   </div>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Разработка современных веб-ресурсов и приложений для бизнеса клиентов с использованием актуальных технологий и индивидуальным подходом
-                </p>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                  <Icon name="MapPin" size={16} className="text-secondary" />
-                  <span>Штаб-квартира: Республика Калмыкия</span>
-                </div>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
-                  <Icon name="Code" size={16} className="text-secondary" />
-                  <span>Полный цикл разработки</span>
-                </div>
-              </CardContent>
-            </Card>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
+                    <Icon name="Code" size={16} className="text-secondary" />
+                    <span>Полный цикл разработки</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </a>
           </div>
 
           <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-none">
