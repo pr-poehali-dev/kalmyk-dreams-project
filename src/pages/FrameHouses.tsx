@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6647c270-754d-4976-8dce-e86ec4c23a02.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/33025762-1e1a-4296-924d-3dad7fad50b5.jpg',
     name: 'Шале 93',
     area: '93.32 м²',
     livingArea: '90 м²',
@@ -19,7 +19,7 @@ const projects = [
     description: 'Одноэтажный дом с панорамными окнами и вторым светом',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c83b76aa-251e-4e74-9ea5-94a64f62067c.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/102d7dc0-d8f8-4853-a759-542c5718ed97.jpg',
     name: 'Шале 95',
     area: '97.48 м²',
     livingArea: '73.62 м²',
@@ -31,7 +31,7 @@ const projects = [
     description: 'Современный одноэтажный дом в стиле шале',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2cc18b5c-da8f-44f0-a3de-92aa269e576f.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/181e6b74-e2e0-4e6e-a048-1f8b91a894c7.jpg',
     name: 'Шале 115',
     area: '115 м²',
     livingArea: '93 м²',
@@ -43,7 +43,7 @@ const projects = [
     description: 'Просторный дом с террасой в стиле шале',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2bad152b-6a7b-48b9-8cbd-e31cc257057b.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f520b8b9-228a-4db4-bdbe-20abb8bb3f11.jpg',
     name: 'Лесная сказка',
     area: '100 м²',
     livingArea: '96.72 м²',
@@ -55,7 +55,7 @@ const projects = [
     description: 'Уютный дом для жизни в окружении природы',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fc179986-9340-4965-a2f0-a9fd00929e01.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/29c883a6-c86e-40f0-8da7-9786e7c2564f.jpg',
     name: 'Афрейм',
     area: '90 м²',
     livingArea: '75 м²',
