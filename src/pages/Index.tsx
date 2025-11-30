@@ -237,10 +237,12 @@ export default function Index() {
                   Смотреть проекты домов
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6">
-                <Icon name="Calculator" size={22} className="mr-2" />
-                Рассчитать стоимость
-              </Button>
+              <button onClick={() => scrollToSection('контакты')}>
+                <Button size="lg" variant="outline" className="text-lg px-8 py-6">
+                  <Icon name="Calculator" size={22} className="mr-2" />
+                  Рассчитать стоимость
+                </Button>
+              </button>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
               {advantages.map((adv, index) => (
