@@ -251,6 +251,9 @@ export default function Index() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-2">
               ОГРНИП 305616834600037
             </p>
+            <p className="text-base text-muted-foreground max-w-3xl mx-auto mb-2">
+              Является инвестором в развитие Республики Калмыкия с 23.11.2023
+            </p>
             <p className="text-base text-muted-foreground max-w-3xl mx-auto">
               Многопрофильная компания с 2005 года, специализирующаяся на строительстве, недвижимости и IT-решениях
             </p>
