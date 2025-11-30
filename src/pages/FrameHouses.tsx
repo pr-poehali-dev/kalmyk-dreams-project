@@ -43,7 +43,7 @@ const projects = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/43c04720-8c30-4c53-a50b-498397f2c31b.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/ff4500c8-c82a-44e6-9e79-ddc4c110bd74.jpg',
     name: 'Шале 115',
     area: '115 м²',
     livingArea: '93 м²',
@@ -54,9 +54,9 @@ const projects = [
     priceFinished: 'от 7 191 000',
     description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/43c04720-8c30-4c53-a50b-498397f2c31b.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/edc06fd6-b220-4e89-957f-4243b3d8f5fc.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/cf0ca814-f80c-41b6-b9a8-45fae1cc500e.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/ff4500c8-c82a-44e6-9e79-ddc4c110bd74.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2731131b-c59b-4e65-b2c1-071047c9ec80.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/7478bc19-5b8b-47fb-ae6f-c16e8537a062.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e716922-9b8b-406a-8c8d-9e2ee8c097f1.jpg'
     ],
   },
