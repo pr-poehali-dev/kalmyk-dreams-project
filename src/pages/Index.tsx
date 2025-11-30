@@ -276,10 +276,6 @@ export default function Index() {
                   Возведение энергоэффективных каркасных жилых домов под ключ по всей территории России с применением современных технологий и качественных материалов
                 </p>
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                  <Icon name="MapPin" size={16} className="text-primary" />
-                  <span>Штаб-квартира: Республика Калмыкия</span>
-                </div>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
                   <Icon name="Building" size={16} className="text-primary" />
                   <span>Клиентский офис: г. Зеленоград</span>
                 </div>
