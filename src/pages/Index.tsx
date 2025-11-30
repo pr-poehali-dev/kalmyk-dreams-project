@@ -191,6 +191,12 @@ export default function Index() {
               >
                 Создание веб-ресурсов
               </a>
+              <a
+                href="/real-estate-rental"
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                Аренда недвижимости
+              </a>
               {['Отзывы', 'Контакты'].map((item) => (
                 <button
                   key={item}
