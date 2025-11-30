@@ -733,7 +733,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="font-heading font-bold mb-1">Email</h4>
-                        <p className="text-muted-foreground">al-serbin.ru</p>
+                        <p className="text-muted-foreground">al-serbin@mail.ru</p>
                       </div>
                     </div>
                   </div>
