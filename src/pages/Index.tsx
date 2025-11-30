@@ -691,6 +691,17 @@ export default function Index() {
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Icon name="MapPin" size={24} className="text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-heading font-bold mb-1">Штаб-квартира инвестора с 11.07.2025</h4>
+                        <p className="text-sm text-muted-foreground">
+                          359404, Республика Калмыкия, р-н Сарпинский, п Каажихин, ул Зеленая, д. 20/2
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                         <Icon name="Building" size={24} className="text-secondary" />
                       </div>
