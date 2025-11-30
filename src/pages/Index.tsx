@@ -710,6 +710,15 @@ export default function Index() {
                         <p className="text-muted-foreground">+7 (XXX) XXX-XX-XX</p>
                       </div>
                     </div>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Icon name="Mail" size={24} className="text-secondary" />
+                      </div>
+                      <div>
+                        <h4 className="font-heading font-bold mb-1">Email</h4>
+                        <p className="text-muted-foreground">al-serbin.ru</p>
+                      </div>
+                    </div>
                   </div>
                   <div className="space-y-4">
                     <div>
