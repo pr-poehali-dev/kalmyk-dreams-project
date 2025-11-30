@@ -707,7 +707,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="font-heading font-bold mb-1">Телефон</h4>
-                        <p className="text-muted-foreground">+7 (XXX) XXX-XX-XX</p>
+                        <p className="text-muted-foreground">+7 (916) 007-94-00</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
