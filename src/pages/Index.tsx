@@ -189,6 +189,12 @@ export default function Index() {
                 </button>
               ))}
               <a
+                href="/frame-houses"
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                Каркасные дома
+              </a>
+              <a
                 href="/web-development"
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
