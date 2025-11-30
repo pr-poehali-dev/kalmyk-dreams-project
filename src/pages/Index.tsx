@@ -38,28 +38,87 @@ const services = [
 
 const projects = [
   {
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6647c270-754d-4976-8dce-e86ec4c23a02.jpg',
+    name: 'Алтай',
+    area: '82 м²',
+    livingArea: '56 м²',
+    dimensions: '7.5 × 9 м',
+    floors: 1,
+    rooms: 2,
+    price: 'от 3 500 000',
+    priceFinished: 'от 4 200 000',
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c83b76aa-251e-4e74-9ea5-94a64f62067c.jpg',
+    name: 'Большая терраса',
+    area: '120 м²',
+    livingArea: '85 м²',
+    dimensions: '10 × 12 м',
+    floors: 2,
+    rooms: 3,
+    price: 'от 4 800 000',
+    priceFinished: 'от 5 700 000',
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2cc18b5c-da8f-44f0-a3de-92aa269e576f.jpg',
+    name: 'Лесной',
+    area: '150 м²',
+    livingArea: '110 м²',
+    dimensions: '11 × 13.5 м',
+    floors: 2,
+    rooms: 4,
+    price: 'от 6 200 000',
+    priceFinished: 'от 7 400 000',
+  },
+  {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2bad152b-6a7b-48b9-8cbd-e31cc257057b.jpg',
-    title: 'Каркасный дом 120 м²',
-    location: 'Московская область',
-    status: 'Завершён',
+    name: 'Современный',
+    area: '95 м²',
+    livingArea: '68 м²',
+    dimensions: '8 × 11 м',
+    floors: 1,
+    rooms: 3,
+    price: 'от 4 100 000',
+    priceFinished: 'от 4 900 000',
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fc179986-9340-4965-a2f0-a9fd00929e01.jpg',
-    title: 'Дом для семьи 150 м²',
-    location: 'Краснодарский край',
-    status: 'В работе',
+    name: 'Семейный',
+    area: '165 м²',
+    livingArea: '125 м²',
+    dimensions: '12 × 14 м',
+    floors: 2,
+    rooms: 4,
+    price: 'от 6 800 000',
+    priceFinished: 'от 8 100 000',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2bad152b-6a7b-48b9-8cbd-e31cc257057b.jpg',
-    title: 'Загородный дом 180 м²',
-    location: 'Санкт-Петербург',
-    status: 'Завершён',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6647c270-754d-4976-8dce-e86ec4c23a02.jpg',
+    name: 'Загородный',
+    area: '180 м²',
+    livingArea: '140 м²',
+    dimensions: '13 × 15 м',
+    floors: 2,
+    rooms: 5,
+    price: 'от 7 500 000',
+    priceFinished: 'от 9 000 000',
   },
 ];
 
 export default function Index() {
   const [activeSection, setActiveSection] = useState('hero');
   const [hoveredRegion, setHoveredRegion] = useState<string | null>(null);
+  const [selectedFloors, setSelectedFloors] = useState<number | null>(null);
+  const [selectedRooms, setSelectedRooms] = useState<number | null>(null);
+  const [maxPrice, setMaxPrice] = useState<number>(10000000);
+
+  const filteredProjects = projects.filter((project) => {
+    if (selectedFloors && project.floors !== selectedFloors) return false;
+    if (selectedRooms && project.rooms !== selectedRooms) return false;
+    const price = parseInt(project.price.replace(/[^0-9]/g, ''));
+    if (price > maxPrice) return false;
+    return true;
+  });
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -209,35 +268,142 @@ export default function Index() {
       <section id="проекты" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto">
           <div className="text-center mb-12 animate-fade-in">
-            <Badge className="mb-4 bg-secondary text-white">Портфолио</Badge>
-            <h2 className="font-heading font-bold text-4xl mb-4">Наши проекты</h2>
+            <Badge className="mb-4 bg-secondary text-white">Каталог проектов</Badge>
+            <h2 className="font-heading font-bold text-4xl mb-4">Каркасные дома под ключ</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Реализованные каркасные дома по всей России
+              Выберите готовый проект или закажите индивидуальный
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
+
+          <div className="mb-8 flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-2">
+              <Button
+                variant={selectedFloors === null ? 'default' : 'outline'}
+                onClick={() => setSelectedFloors(null)}
+                size="sm"
+              >
+                Все этажи
+              </Button>
+              <Button
+                variant={selectedFloors === 1 ? 'default' : 'outline'}
+                onClick={() => setSelectedFloors(1)}
+                size="sm"
+              >
+                1 этаж
+              </Button>
+              <Button
+                variant={selectedFloors === 2 ? 'default' : 'outline'}
+                onClick={() => setSelectedFloors(2)}
+                size="sm"
+              >
+                2 этажа
+              </Button>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              <Button
+                variant={selectedRooms === null ? 'default' : 'outline'}
+                onClick={() => setSelectedRooms(null)}
+                size="sm"
+              >
+                Все комнаты
+              </Button>
+              {[2, 3, 4, 5].map((rooms) => (
+                <Button
+                  key={rooms}
+                  variant={selectedRooms === rooms ? 'default' : 'outline'}
+                  onClick={() => setSelectedRooms(rooms)}
+                  size="sm"
+                >
+                  {rooms} комн.
+                </Button>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filteredProjects.map((project, index) => (
               <Card key={index} className="overflow-hidden group hover:shadow-2xl transition-all duration-300">
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={project.name}
                     className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <Badge className="absolute top-4 right-4 bg-white text-foreground">
-                    {project.status}
+                  <Badge className="absolute top-4 right-4 bg-primary text-white">
+                    {project.floors} этаж
                   </Badge>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="font-heading font-bold text-xl mb-2">{project.title}</h3>
-                  <div className="flex items-center text-muted-foreground">
-                    <Icon name="MapPin" size={16} className="mr-2" />
-                    <span className="text-sm">{project.location}</span>
+                  <h3 className="font-heading font-bold text-2xl mb-4">{project.name}</h3>
+                  
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-muted-foreground flex items-center">
+                        <Icon name="Maximize" size={16} className="mr-2" />
+                        Общая площадь
+                      </span>
+                      <span className="font-semibold">{project.area}</span>
+                    </div>
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-muted-foreground flex items-center">
+                        <Icon name="Home" size={16} className="mr-2" />
+                        Жилая площадь
+                      </span>
+                      <span className="font-semibold">{project.livingArea}</span>
+                    </div>
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-muted-foreground flex items-center">
+                        <Icon name="Ruler" size={16} className="mr-2" />
+                        Размеры
+                      </span>
+                      <span className="font-semibold">{project.dimensions}</span>
+                    </div>
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-muted-foreground flex items-center">
+                        <Icon name="DoorOpen" size={16} className="mr-2" />
+                        Комнат
+                      </span>
+                      <span className="font-semibold">{project.rooms}</span>
+                    </div>
                   </div>
+
+                  <div className="border-t pt-4 space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-muted-foreground">Тёплый контур:</span>
+                      <span className="font-bold text-primary">{project.price} ₽</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-muted-foreground">С отделкой:</span>
+                      <span className="font-bold text-secondary">{project.priceFinished} ₽</span>
+                    </div>
+                  </div>
+
+                  <Button className="w-full mt-4 bg-primary hover:bg-primary/90">
+                    <Icon name="Phone" size={16} className="mr-2" />
+                    Узнать подробнее
+                  </Button>
                 </CardContent>
               </Card>
             ))}
           </div>
+
+          {filteredProjects.length === 0 && (
+            <div className="text-center py-12">
+              <Icon name="SearchX" size={48} className="mx-auto text-muted-foreground mb-4" />
+              <p className="text-lg text-muted-foreground">Проекты с такими параметрами не найдены</p>
+              <Button
+                variant="outline"
+                className="mt-4"
+                onClick={() => {
+                  setSelectedFloors(null);
+                  setSelectedRooms(null);
+                }}
+              >
+                Сбросить фильтры
+              </Button>
+            </div>
+          )}
         </div>
       </section>
 
