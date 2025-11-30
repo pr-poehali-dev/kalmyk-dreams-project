@@ -244,9 +244,19 @@ const FrameHouses = () => {
               <p className="text-lg text-muted-foreground mb-8">
                 Используем современные технологии и качественные материалы для создания надежного и комфортного жилья для вашей семьи
               </p>
-              <div className="flex items-center space-x-2 text-muted-foreground mb-8">
+              <div className="flex items-center space-x-2 text-muted-foreground mb-4">
                 <Icon name="MapPin" size={20} className="text-primary" />
                 <span>Клиентский офис: г. Зеленоград</span>
+              </div>
+              <div className="mb-8 rounded-2xl overflow-hidden shadow-xl">
+                <iframe 
+                  src="https://yandex.ru/map-widget/v1/?ll=37.217247%2C55.991037&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNzY4MDE0MTI2EmbQoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0JfQtdC70LXQvdC-0LPRgNCw0LQsINCh0LDQstGR0LvQutC40L3RgdC60LjQuSDQv9GA0L7QtdC30LQsIDQiCg1VxSZCFeYvYUI%2C&z=16.23"
+                  width="100%"
+                  height="250"
+                  frameBorder="0"
+                  allowFullScreen={true}
+                  style={{ position: 'relative' }}
+                ></iframe>
               </div>
               <Button size="lg" className="rounded-full">
                 Получить консультацию
