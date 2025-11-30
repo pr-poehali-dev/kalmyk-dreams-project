@@ -44,6 +44,16 @@ const WebDevelopment = () => {
               <p className="text-xl text-muted-foreground mb-4">
                 Для бизнеса клиентов по всей России с штаб-квартирой в Калмыкии
               </p>
+              <div className="mb-6 rounded-2xl overflow-hidden shadow-xl">
+                <iframe 
+                  src="https://yandex.ru/map-widget/v1/?ll=46.181607%2C46.181607&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE3ODMyNBJj0KDQvtGB0YHQuNGPLCDQoNC10YHQv9GD0LHQu9C40LrQsCDQmtCw0LzQvNGL0LrQuNGPLCDQp9C10YDQvdC-0LfQtdC80LXQu9GM0YHQutC40Lkg0YDQsNC50L7QvSwg0L_QvtGB0ZHQu9C-0Log0J3QsNGA0YvQvS3QpdGD0LTRg9C6LCDRg9C70LjRhtCwIDQwINC70LXRgiDQn9C-0LHQtdC00YssIDEyLCDQutCy0LDRgNGC0LjRgNCwIDEiCg3cXwpCFYE0YkI%2C&z=17"
+                  width="100%"
+                  height="300"
+                  frameBorder="0"
+                  allowFullScreen={true}
+                  style={{ position: 'relative' }}
+                ></iframe>
+              </div>
               <p className="text-lg text-muted-foreground mb-8">
                 На берегу Каспийского моря мы создаём цифровые решения, которые помогают вашему бизнесу расти и развиваться в онлайн-пространстве
               </p>
