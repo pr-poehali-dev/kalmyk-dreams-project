@@ -281,7 +281,7 @@ export default function Index() {
                 </div>
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
                   <Icon name="Building" size={16} className="text-primary" />
-                  <span>Офис: Москва, Зеленоград</span>
+                  <span>Клиентский офис: г. Зеленоград</span>
                 </div>
               </CardContent>
             </Card>
@@ -394,10 +394,10 @@ export default function Index() {
                   <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mx-auto mb-4">
                     <Icon name="Building" size={24} className="text-white" />
                   </div>
-                  <h4 className="font-heading font-bold text-xl mb-2">Офис продаж</h4>
+                  <h4 className="font-heading font-bold text-xl mb-2">Клиентский офис</h4>
                   <p className="text-sm text-muted-foreground mb-2">Москва, Зеленоград</p>
                   <p className="text-xs text-muted-foreground">
-                    Центр строительства и недвижимости
+                    124482, Россия, г. Зеленоград, Савелкинский проезд, дом 4
                   </p>
                 </div>
               </div>
@@ -695,8 +695,10 @@ export default function Index() {
                         <Icon name="Building" size={24} className="text-secondary" />
                       </div>
                       <div>
-                        <h4 className="font-heading font-bold mb-1">Офис продаж</h4>
-                        <p className="text-sm text-muted-foreground">Москва, Зеленоград</p>
+                        <h4 className="font-heading font-bold mb-1">Клиентский офис</h4>
+                        <p className="text-sm text-muted-foreground">
+                          124482, Россия, г. Зеленоград, Савелкинский проезд, дом 4
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
