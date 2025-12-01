@@ -280,7 +280,7 @@ export default function Index() {
               <strong>Является инвестором в развитие Республики Калмыкия с 23.11.2023</strong>
             </p>
             <p className="text-base text-muted-foreground max-w-3xl mx-auto mb-6">
-              Многопрофильная компания с 2005 года, специализирующаяся на строительстве, недвижимости и IT-решениях
+              Многопрофильный бизнес с 2005 года, специализирующийся на строительстве, недвижимости и IT-решениях
             </p>
             <div className="max-w-4xl mx-auto bg-secondary/5 rounded-2xl p-6 text-left">
               <h3 className="font-heading font-bold text-lg mb-4 text-center">Ведение бизнеса согласно ОКВЭД</h3>
