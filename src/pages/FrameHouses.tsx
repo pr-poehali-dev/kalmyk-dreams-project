@@ -68,20 +68,12 @@ const projects = [
     gallery: [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c728bf3e-417d-4633-9439-e642ae9d3b47.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6bdce46e-ac3b-4953-9866-d186e9ffacac.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/19115ba3-6cc8-4051-b727-467529ab2a96.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4c75d3fb-aeeb-4385-8c21-44145a407e82.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/13b255c1-eddf-4a8e-8189-be802d85a80a.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4f72df74-8808-4004-b653-ccd5dd49a6f1.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/94d83c18-45bb-4104-a838-e73b97a175f8.jpg'
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4f72df74-8808-4004-b653-ccd5dd49a6f1.jpg'
     ],
     galleryDescriptions: [
       'Главный фасад с панорамными окнами и террасой 21 м²',
       'Боковой вид с террасой и кухней-гостиной 33 м²',
-      'Задний фасад со спальнями 11-16 м²',
-      'Угловой вид с высоким вторым светом',
-      'Вечерний вид с теплым внутренним освещением',
-      'Входная группа с крыльцом',
-      'Просторная терраса с выходом из гостиной'
+      'Входная группа с крыльцом'
     ],
   },
   {
