@@ -300,7 +300,7 @@ const LandSales = () => {
 
       <footer className="border-t py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; 2024 Александр Сербин. Все права защищены.</p>
+          <p>&copy; 2024 ИП Сербин Алексей Юрьевич (ОГРНИП 305616834600037). Все права защищены.</p>
         </div>
       </footer>
     </div>
