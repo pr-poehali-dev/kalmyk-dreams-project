@@ -121,7 +121,7 @@ const projects = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/961b4f1c-2ac1-4e71-9a69-be9dc82aad57.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/621d6aba-5721-484c-83f4-cf296fa1c6df.jpg',
     name: 'Поляна 120',
     area: '119.49 м²',
     livingArea: '105 м²',
@@ -132,18 +132,18 @@ const projects = [
     priceFinished: 'от 7 780 000',
     description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/961b4f1c-2ac1-4e71-9a69-be9dc82aad57.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/a19da538-7bb6-4b00-af11-620ea2605f1f.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/3573d8f3-e231-400f-bb2d-00c84a3119bb.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/82aecf33-cf32-44f1-ba70-64eb68cf76b0.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/621d6aba-5721-484c-83f4-cf296fa1c6df.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/7983a5e6-9b30-46c1-bd0c-00f7e041fae7.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/8265937a-d829-4e3f-9014-ee6fd4c6cd81.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/ba40e39a-67c4-414c-8583-53eae636ea8b.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9369a7ed-c975-4144-a422-ac998c2ee594.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/8779d700-fb87-4e77-af30-cd6731c70e5f.jpg'
     ],
     galleryDescriptions: [
-      'Главный фасад с большой террасой и панорамными окнами',
-      'Боковой фасад с террасой и входной группой',
-      'Задний фасад с панорамными окнами и вторым светом',
-      'Общий вид дома на участке с террасой',
+      'Главный фасад одноэтажного дома с большой террасой',
+      'Боковой вид одноэтажного дома с террасой и входом',
+      'Задний фасад одноэтажного дома с панорамными окнами',
+      'Общий вид одноэтажного дома на участке с террасой',
       'Интерьер гостиной со вторым светом и панорамными окнами',
       'Спальня с видом на лес'
     ],
