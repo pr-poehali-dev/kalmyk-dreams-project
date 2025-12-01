@@ -44,13 +44,11 @@ const projects = [
     gallery: [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c346e257-1fe7-40d6-8caa-220f309c4e39.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/8a45147e-2845-454b-9caa-f872bdd13c9b.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5668e76c-792a-475f-a02c-3cf29a3182d6.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6497da40-cc3d-45da-baa0-cc6f94581e27.jpg'
     ],
     galleryDescriptions: [
       'Главный фасад с панорамными окнами и вторым светом',
       'Боковой вид с входной группой и спальнями',
-      'Задний фасад с окнами спален 11-16 м²',
       'Угловой вид с кухней-гостиной 23-33 м²'
     ],
   },
