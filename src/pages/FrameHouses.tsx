@@ -287,7 +287,7 @@ const FrameHouses = () => {
             </Link>
           </div>
           <div className="flex items-center space-x-6 overflow-x-auto">
-            {['Преимущества', 'Проекты', 'Технологии', 'Этапы'].map((item) => (
+            {['Преимущества', 'Проекты', 'Технологии', 'Этапы', 'Отзывы'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -619,7 +619,7 @@ const FrameHouses = () => {
       </section>
 
       {/* Reviews Section */}
-      <section className="py-20 bg-secondary/5">
+      <section id="отзывы" className="py-20 bg-secondary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-secondary text-white text-base px-6 py-2">
