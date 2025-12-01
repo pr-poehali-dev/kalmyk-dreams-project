@@ -155,6 +155,8 @@ const technologies = [
 const FrameHouses = () => {
   const [selectedFloors, setSelectedFloors] = useState<number | null>(null);
   const [selectedRooms, setSelectedRooms] = useState<number | null>(null);
+  const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const filteredProjects = projects.filter((project) => {
     if (selectedFloors && project.floors !== selectedFloors) return false;
@@ -412,7 +414,10 @@ const FrameHouses = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project, index) => (
               <Card key={index} className="overflow-hidden group hover:shadow-2xl transition-all duration-300">
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden cursor-pointer" onClick={() => {
+                  setSelectedProject(project);
+                  setCurrentImageIndex(0);
+                }}>
                   <img
                     src={project.image}
                     alt={project.name}
@@ -421,6 +426,10 @@ const FrameHouses = () => {
                   <Badge className="absolute top-4 right-4 bg-primary text-white">
                     {project.floors} этаж
                   </Badge>
+                  <div className="absolute bottom-4 right-4 bg-black/60 text-white px-3 py-1 rounded-full text-sm flex items-center space-x-1">
+                    <Icon name="Image" size={14} />
+                    <span>{project.gallery?.length || 1}</span>
+                  </div>
                 </div>
                 <CardContent className="p-6">
                   <h3 className="font-heading font-bold text-2xl mb-4">{project.name}</h3>
@@ -602,6 +611,73 @@ const FrameHouses = () => {
           </Link>
         </div>
       </section>
+
+      {/* Gallery Modal */}
+      {selectedProject && (
+        <div className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4" onClick={() => setSelectedProject(null)}>
+          <button
+            className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
+            onClick={() => setSelectedProject(null)}
+          >
+            <Icon name="X" size={32} />
+          </button>
+          
+          <div className="max-w-6xl w-full" onClick={(e) => e.stopPropagation()}>
+            <div className="relative">
+              <img
+                src={selectedProject.gallery?.[currentImageIndex] || selectedProject.image}
+                alt={`${selectedProject.name} - ${currentImageIndex + 1}`}
+                className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
+              />
+              
+              {selectedProject.gallery && selectedProject.gallery.length > 1 && (
+                <>
+                  <button
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white rounded-full p-3 transition-colors"
+                    onClick={() => setCurrentImageIndex((prev) => 
+                      prev === 0 ? selectedProject.gallery!.length - 1 : prev - 1
+                    )}
+                  >
+                    <Icon name="ChevronLeft" size={24} />
+                  </button>
+                  
+                  <button
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white rounded-full p-3 transition-colors"
+                    onClick={() => setCurrentImageIndex((prev) => 
+                      prev === selectedProject.gallery!.length - 1 ? 0 : prev + 1
+                    )}
+                  >
+                    <Icon name="ChevronRight" size={24} />
+                  </button>
+                </>
+              )}
+            </div>
+            
+            <div className="mt-6 text-center text-white">
+              <h3 className="font-heading font-bold text-2xl mb-2">{selectedProject.name}</h3>
+              <p className="text-white/80">
+                Изображение {currentImageIndex + 1} из {selectedProject.gallery?.length || 1}
+              </p>
+            </div>
+            
+            {selectedProject.gallery && selectedProject.gallery.length > 1 && (
+              <div className="flex justify-center gap-2 mt-4 flex-wrap">
+                {selectedProject.gallery.map((img, idx) => (
+                  <button
+                    key={idx}
+                    className={`w-16 h-16 rounded-lg overflow-hidden border-2 transition-all ${
+                      idx === currentImageIndex ? 'border-white scale-110' : 'border-transparent opacity-60 hover:opacity-100'
+                    }`}
+                    onClick={() => setCurrentImageIndex(idx)}
+                  >
+                    <img src={img} alt={`${selectedProject.name} - ${idx + 1}`} className="w-full h-full object-cover" />
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="border-t py-8">
