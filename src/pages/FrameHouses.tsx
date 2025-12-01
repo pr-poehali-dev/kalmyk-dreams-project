@@ -31,7 +31,7 @@ const projects = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fba3ffa9-e4f4-47f7-9ee2-75a47f75036f.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c346e257-1fe7-40d6-8caa-220f309c4e39.jpg',
     name: 'Шале 95',
     area: '97.48 м²',
     livingArea: '73.62 м²',
@@ -42,10 +42,10 @@ const projects = [
     priceFinished: 'от 6 794 000',
     description: 'Одноэтажный дом с панорамными окнами и вторым светом. Кухня-гостиная 23-33 м²',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fba3ffa9-e4f4-47f7-9ee2-75a47f75036f.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fc4e222d-7061-4d4f-9302-31a3abf80df3.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/02858a0f-9fd7-4e46-b436-457879cd13fc.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/1ad7fd6d-d883-44e6-ba39-5b030c92c173.jpg'
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c346e257-1fe7-40d6-8caa-220f309c4e39.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/8a45147e-2845-454b-9caa-f872bdd13c9b.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5668e76c-792a-475f-a02c-3cf29a3182d6.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6497da40-cc3d-45da-baa0-cc6f94581e27.jpg'
     ],
     galleryDescriptions: [
       'Главный фасад с панорамными окнами и вторым светом',
