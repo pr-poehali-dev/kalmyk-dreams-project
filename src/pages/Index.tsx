@@ -186,6 +186,12 @@ export default function Index() {
                 Строительство каркасных домов
               </a>
               <a
+                href="/land-sales"
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                Продажа земельных участков
+              </a>
+              <a
                 href="/web-development"
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
