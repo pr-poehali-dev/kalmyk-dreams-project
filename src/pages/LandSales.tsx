@@ -7,6 +7,26 @@ import { Badge } from "@/components/ui/badge";
 
 const landPlots = [
   {
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/0fa1c9ae-6e7f-418d-b00d-0c16e8d69e25.jpg',
+    name: 'Участок в степи',
+    area: '20 соток',
+    location: 'Республика Калмыкия',
+    distance: 'п. Нарын Худук',
+    price: 'от 400 000',
+    infrastructure: ['Электричество', 'Дорога'],
+    description: 'Просторный участок в степной зоне с отличными видами',
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4fc43e5f-2487-48e6-b8ae-4d77ef0af290.jpg',
+    name: 'Участок в селе Каажихин',
+    area: '15 соток',
+    location: 'Республика Калмыкия',
+    distance: 'п. Каажихин',
+    price: 'от 350 000',
+    infrastructure: ['Электричество', 'Дорога', 'Газ'],
+    description: 'Участок с коммуникациями в развивающемся поселке',
+  },
+  {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/205c4207-8748-4d7b-9fb6-3a9d25a7bf6d.jpg',
     name: 'Участок в Подмосковье',
     area: '10 соток',
