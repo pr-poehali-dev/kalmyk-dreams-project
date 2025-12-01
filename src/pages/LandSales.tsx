@@ -103,7 +103,7 @@ const LandSales = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/205c4207-8748-4d7b-9fb6-3a9d25a7bf6d.jpg"
+                src="https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/0df4bb16-b588-4e95-8436-1a9f6be77612.jpg"
                 alt="Земельные участки"
                 className="rounded-2xl shadow-2xl w-full"
               />
