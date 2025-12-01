@@ -21,13 +21,17 @@ const projects = [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/74db44a2-c85d-48b0-9dc2-62492ff25525.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/a77f3666-9565-4d0e-af16-75c2c649701d.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/e260d0a9-b764-4d6d-b927-db299f37e85f.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/a5e7d873-9d0b-431f-a707-fe51dcd7c62e.jpg'
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/a5e7d873-9d0b-431f-a707-fe51dcd7c62e.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9d131af2-ab23-44aa-996c-aee57829dcfe.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/632cb0cf-5298-4384-99f6-ad04b7c43147.jpg'
     ],
     galleryDescriptions: [
       'Главный фасад с панорамными окнами и вторым светом',
       'Боковой вид с входной группой',
       'Вечерняя подсветка дома в лесу',
-      'Общий вид участка с домом'
+      'Общий вид участка с домом',
+      'Интерьер кухни-гостиной со вторым светом',
+      'Панорамные окна и второй свет в гостиной'
     ],
   },
   {
