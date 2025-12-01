@@ -306,34 +306,36 @@ export default function Index() {
               </Card>
             </a>
 
-            <Card className="hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-start space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="TreePine" size={32} className="text-secondary" />
+            <a href="/land-sales" className="block">
+              <Card className="hover:shadow-xl transition-all duration-300 cursor-pointer h-full">
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-4 mb-4">
+                    <div className="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Icon name="TreePine" size={32} className="text-secondary" />
+                    </div>
+                    <div>
+                      <h3 className="font-heading font-bold text-2xl mb-2">
+                        Продажа земельных участков
+                      </h3>
+                      <Badge className="mb-3 bg-secondary/20 text-secondary">
+                        По всей России
+                      </Badge>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-heading font-bold text-2xl mb-2">
-                      Продажа земельных участков
-                    </h3>
-                    <Badge className="mb-3 bg-secondary/20 text-secondary">
-                      По всей России
-                    </Badge>
+                  <p className="text-muted-foreground mb-4">
+                    Подбор и продажа земельных участков в перспективных районах по всей России с готовой инфраструктурой и документами для строительства жилых домов
+                  </p>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <Icon name="MapPin" size={16} className="text-secondary" />
+                    <span>География: вся Россия</span>
                   </div>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Подбор и продажа земельных участков в перспективных районах по всей России с готовой инфраструктурой и документами для строительства жилых домов
-                </p>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                  <Icon name="MapPin" size={16} className="text-secondary" />
-                  <span>География: вся Россия</span>
-                </div>
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
-                  <Icon name="FileCheck" size={16} className="text-secondary" />
-                  <span>Полный пакет документов</span>
-                </div>
-              </CardContent>
-            </Card>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground mt-2">
+                    <Icon name="FileCheck" size={16} className="text-secondary" />
+                    <span>Полный пакет документов</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </a>
 
             <a href="/real-estate-rental" className="block">
               <Card className="hover:shadow-xl transition-all duration-300 cursor-pointer h-full">
