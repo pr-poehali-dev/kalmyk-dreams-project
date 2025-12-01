@@ -55,7 +55,7 @@ const projects = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/ff4500c8-c82a-44e6-9e79-ddc4c110bd74.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c728bf3e-417d-4633-9439-e642ae9d3b47.jpg',
     name: 'Шале 115',
     area: '115 м²',
     livingArea: '93 м²',
@@ -64,24 +64,24 @@ const projects = [
     rooms: 3,
     price: 'от 5 243 000',
     priceFinished: 'от 7 191 000',
-    description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
+    description: 'Одноэтажный дом с террасой 21 м², панорамными окнами и вторым светом. Кухня-гостиная 33 м²',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/ff4500c8-c82a-44e6-9e79-ddc4c110bd74.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2731131b-c59b-4e65-b2c1-071047c9ec80.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/7478bc19-5b8b-47fb-ae6f-c16e8537a062.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/94a9ee41-9d53-404d-bfae-d80a39948bd0.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/940c25c2-ccae-452c-907a-3003463ba8a0.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c9dc4aa7-252f-4c34-bac2-0921467473e8.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e716922-9b8b-406a-8c8d-9e2ee8c097f1.jpg'
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c728bf3e-417d-4633-9439-e642ae9d3b47.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6bdce46e-ac3b-4953-9866-d186e9ffacac.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/19115ba3-6cc8-4051-b727-467529ab2a96.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4c75d3fb-aeeb-4385-8c21-44145a407e82.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/13b255c1-eddf-4a8e-8189-be802d85a80a.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4f72df74-8808-4004-b653-ccd5dd49a6f1.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/94d83c18-45bb-4104-a838-e73b97a175f8.jpg'
     ],
     galleryDescriptions: [
-      'Главный фасад одноэтажного дома',
-      'Вид на террасу и панорамные окна',
-      'Боковой фасад с высокими потолками',
-      'Задняя часть дома с остеклением',
-      'Вечерний вид с подсветкой',
-      'Боковой вход в дом',
-      'Входная группа и терраса'
+      'Главный фасад с панорамными окнами и террасой 21 м²',
+      'Боковой вид с террасой и кухней-гостиной 33 м²',
+      'Задний фасад со спальнями 11-16 м²',
+      'Угловой вид с высоким вторым светом',
+      'Вечерний вид с теплым внутренним освещением',
+      'Входная группа с крыльцом',
+      'Просторная терраса с выходом из гостиной'
     ],
   },
   {
