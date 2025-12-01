@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/8e32bda9-c054-4689-b009-6d4022032e97.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/369c39b0-dcfe-480b-a0b9-e496d4ae86df.jpg',
     name: 'Шале 93',
     area: '93.32 м²',
     livingArea: '90 м²',
@@ -18,10 +18,10 @@ const projects = [
     priceFinished: 'от 6 352 000',
     description: 'Одноэтажный дом с панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/8e32bda9-c054-4689-b009-6d4022032e97.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4c1666fc-63c5-4152-a826-20a063f3c835.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/064f8c9b-982a-463c-a480-d04eb59a4fd3.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/df1abc2e-419f-4877-a474-3a0892bf92cc.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/369c39b0-dcfe-480b-a0b9-e496d4ae86df.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f8511283-87ca-4f4e-aa38-a972282d9009.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5ae7789a-1d5e-400b-b048-30decb9ff7ce.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4505afc9-5729-4eb8-9490-9e510139c46f.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9d131af2-ab23-44aa-996c-aee57829dcfe.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/632cb0cf-5298-4384-99f6-ad04b7c43147.jpg'
     ],
