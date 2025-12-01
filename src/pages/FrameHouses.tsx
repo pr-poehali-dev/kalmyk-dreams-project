@@ -79,7 +79,7 @@ const projects = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/844054ee-c764-41f3-bfd8-80cfff8652c4.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9db97368-9df6-4d2c-9eca-b3ed792e6f38.jpg',
     name: 'Лесная сказка',
     area: '100 м²',
     livingArea: '96.72 м²',
@@ -90,20 +90,20 @@ const projects = [
     priceFinished: 'от 8 020 000',
     description: 'Одноэтажный дом с террасой. 3 спальни 9-15 м², кухня-гостиная 31 м² со вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/844054ee-c764-41f3-bfd8-80cfff8652c4.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/09f8fb01-e255-4dbd-8cbb-34b428eab842.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/3cc4d0d2-d3fb-436b-a486-81c581e1606a.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4d7be94e-9f54-4780-9325-e6a0c0093c59.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/407bf464-ddbd-4127-9154-fbf4777ee94c.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/7b246a1e-b2a4-4a13-8227-9d4ee097d8f7.jpg'
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9db97368-9df6-4d2c-9eca-b3ed792e6f38.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/37745784-6099-428b-a27b-f3da81e03a9c.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/2cc463a0-812b-4f88-890b-c356c6937471.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5a9f5d6a-adba-4968-88e4-814cc2669a6f.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/af2f9acc-9e61-4963-8902-8b9a40451d2f.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/a4e2df84-d43a-493a-aa60-07c2b5aeb1ba.jpg'
     ],
     galleryDescriptions: [
-      'Главный фасад с большой террасой и панорамными окнами',
-      'Боковой вид с террасой на дом в лесу',
+      'Главный фасад с панорамными окнами во всю высоту и вторым светом',
+      'Боковой вид с деревянной террасой и входной группой',
       'Задний фасад с панорамными окнами кухни-гостиной 31 м²',
-      'Общий вид участка с террасой',
-      'Интерьер кухни-гостиной 31 м² со вторым светом',
-      'Спальня 9-15 м² с видом на лес'
+      'Общий вид дома на участке с террасой',
+      'Интерьер кухни-гостиной 31 м² с двусветным пространством',
+      'Спальня 12 м² с видом на лес'
     ],
   },
   {
