@@ -37,7 +37,7 @@ const landPlots = [
     description: 'Ровный участок с коммуникациями в живописном месте',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c346e257-1fe7-40d6-8caa-220f309c4e39.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/483039e9-0e0e-40b1-adf8-77445c8e1865.jpg',
     name: 'Участок у леса',
     area: '15 соток',
     location: 'Калужская область',
