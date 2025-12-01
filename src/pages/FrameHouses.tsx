@@ -121,7 +121,7 @@ const projects = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c9251ec6-89bf-41d9-adda-637ddf41bc49.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/cfabcee9-29e6-433b-97cf-05f9b48e38df.jpg',
     name: 'Поляна 120',
     area: '119.49 м²',
     livingArea: '105 м²',
@@ -132,19 +132,11 @@ const projects = [
     priceFinished: 'от 7 780 000',
     description: 'Одноэтажный дом с террасой, панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c9251ec6-89bf-41d9-adda-637ddf41bc49.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4696742d-3c5f-4815-9842-2890307c3b00.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/cfabcee9-29e6-433b-97cf-05f9b48e38df.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/d8a97c68-4346-4b3a-a2f9-ba3586470bad.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9369a7ed-c975-4144-a422-ac998c2ee594.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/8779d700-fb87-4e77-af30-cd6731c70e5f.jpg'
     ],
     galleryDescriptions: [
-      'Главный фасад одноэтажного дома с большой террасой',
-      'Боковой вид одноэтажного дома с террасой и входом',
       'Задний фасад одноэтажного дома с панорамными окнами',
-      'Общий вид одноэтажного дома на участке с террасой',
-      'Интерьер гостиной со вторым светом и панорамными окнами',
       'Спальня с видом на лес'
     ],
   },
