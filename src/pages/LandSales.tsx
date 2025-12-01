@@ -47,7 +47,7 @@ const landPlots = [
     description: 'Участок на опушке леса с видом на поле',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c728bf3e-417d-4633-9439-e642ae9d3b47.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/bc7ba722-237b-42a6-b856-92cb6566ba61.jpg',
     name: 'Участок у реки',
     area: '12 соток',
     location: 'Тульская область',
