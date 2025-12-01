@@ -197,15 +197,12 @@ export default function Index() {
               >
                 Аренда недвижимости
               </a>
-              {['Отзывы', 'Контакты'].map((item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
-                  className="text-sm font-medium hover:text-primary transition-colors"
-                >
-                  {item}
-                </button>
-              ))}
+              <button
+                onClick={() => scrollToSection('контакты')}
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                Контакты
+              </button>
             </div>
             <Button size="lg" className="hidden md:flex bg-primary">
               <Icon name="Phone" size={18} className="mr-2" />
@@ -437,40 +434,6 @@ export default function Index() {
               </div>
             </CardContent>
           </Card>
-        </div>
-      </section>
-
-      <section id="отзывы" className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto">
-          <div className="text-center mb-12 animate-fade-in">
-            <Badge className="mb-4 bg-primary text-white text-base px-6 py-2">
-              Отзывы
-            </Badge>
-            <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4">
-              Что говорят наши клиенты
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Реальные отзывы владельцев наших домов
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {reviews.map((review, index) => (
-              <Card key={index} className="hover:shadow-xl transition-shadow">
-                <CardContent className="p-6">
-                  <div className="flex items-center mb-4">
-                    {[...Array(review.rating)].map((_, i) => (
-                      <Icon key={i} name="Star" size={18} className="text-primary fill-primary" />
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground mb-4 italic">"{review.text}"</p>
-                  <div className="border-t pt-4">
-                    <p className="font-heading font-bold">{review.name}</p>
-                    <p className="text-sm text-muted-foreground">{review.project}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </section>
 
