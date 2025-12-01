@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/74db44a2-c85d-48b0-9dc2-62492ff25525.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/43d355d2-defd-43c2-86e1-08ef7ae3633a.jpg',
     name: 'Шале 93',
     area: '93.32 м²',
     livingArea: '90 м²',
@@ -18,18 +18,18 @@ const projects = [
     priceFinished: 'от 6 352 000',
     description: 'Одноэтажный дом с панорамными окнами и вторым светом',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/74db44a2-c85d-48b0-9dc2-62492ff25525.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/a77f3666-9565-4d0e-af16-75c2c649701d.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/e260d0a9-b764-4d6d-b927-db299f37e85f.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/a5e7d873-9d0b-431f-a707-fe51dcd7c62e.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/43d355d2-defd-43c2-86e1-08ef7ae3633a.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/549a161e-68e1-4b92-8625-68cfd0aee2c9.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/08592db2-daa7-4840-83bc-b8ed1dca6048.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/3504cfc9-467c-408c-a5c2-2c0c4690e9e0.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9d131af2-ab23-44aa-996c-aee57829dcfe.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/632cb0cf-5298-4384-99f6-ad04b7c43147.jpg'
     ],
     galleryDescriptions: [
-      'Главный фасад с панорамными окнами и вторым светом',
-      'Боковой вид с входной группой',
-      'Вечерняя подсветка дома в лесу',
-      'Общий вид участка с домом',
+      'Главный фасад одноэтажного дома с панорамными окнами',
+      'Боковой вид одноэтажного дома с входной группой',
+      'Вечерняя подсветка одноэтажного дома в лесу',
+      'Общий вид одноэтажного дома на участке',
       'Интерьер кухни-гостиной со вторым светом',
       'Панорамные окна и второй свет в гостиной'
     ],
