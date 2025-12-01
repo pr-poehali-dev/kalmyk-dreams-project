@@ -279,9 +279,27 @@ export default function Index() {
             <p className="text-base text-muted-foreground max-w-3xl mx-auto mb-2">
               <strong>Является инвестором в развитие Республики Калмыкия с 23.11.2023</strong>
             </p>
-            <p className="text-base text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-base text-muted-foreground max-w-3xl mx-auto mb-6">
               Многопрофильная компания с 2005 года, специализирующаяся на строительстве, недвижимости и IT-решениях
             </p>
+            <div className="max-w-4xl mx-auto bg-secondary/5 rounded-2xl p-6 text-left">
+              <h3 className="font-heading font-bold text-lg mb-4 text-center">Ведение бизнеса согласно ОКВЭД</h3>
+              <div className="space-y-3 text-sm">
+                <div>
+                  <p className="font-semibold text-primary mb-1">Основной ОКВЭД:</p>
+                  <p className="text-muted-foreground">63.11 — Деятельность по обработке данных, предоставление услуг по размещению информации и связанная с этим деятельность</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-secondary mb-1">Дополнительные ОКВЭД:</p>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li>• 41.20 — Строительство жилых и нежилых зданий</li>
+                    <li>• 68.10 — Покупка и продажа собственного недвижимого имущества</li>
+                    <li className="ml-4">◦ 68.10.23 — Покупка и продажа земельных участков</li>
+                    <li className="ml-4">◦ 68.10.21 — Покупка и продажа собственного жилого недвижимого имущества</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
