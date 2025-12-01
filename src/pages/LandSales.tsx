@@ -27,7 +27,7 @@ const landPlots = [
     description: 'Участок с коммуникациями в развивающемся поселке',
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/205c4207-8748-4d7b-9fb6-3a9d25a7bf6d.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/3be9c712-0dc6-437c-86d3-805fc77d43fa.jpg',
     name: 'Участок в Подмосковье',
     area: '10 соток',
     location: 'Московская область',
