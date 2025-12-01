@@ -31,7 +31,7 @@ const projects = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/e3d78a7b-d218-40f8-b337-309f58bf8d9f.jpg',
+    image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fba3ffa9-e4f4-47f7-9ee2-75a47f75036f.jpg',
     name: 'Шале 95',
     area: '97.48 м²',
     livingArea: '73.62 м²',
@@ -40,18 +40,18 @@ const projects = [
     rooms: 3,
     price: 'от 4 687 000',
     priceFinished: 'от 6 794 000',
-    description: 'Одноэтажный дом с панорамными окнами и вторым светом',
+    description: 'Одноэтажный дом с панорамными окнами и вторым светом. Кухня-гостиная 23-33 м²',
     gallery: [
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/e3d78a7b-d218-40f8-b337-309f58bf8d9f.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6fdb4df7-cc7d-4589-898f-235a3f599a3e.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/b5fa680b-4d77-4d53-9b2e-7118ca8034f5.jpg',
-      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5755eca5-7291-45d8-98a1-d7367c31842e.jpg'
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fba3ffa9-e4f4-47f7-9ee2-75a47f75036f.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/fc4e222d-7061-4d4f-9302-31a3abf80df3.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/02858a0f-9fd7-4e46-b436-457879cd13fc.jpg',
+      'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/1ad7fd6d-d883-44e6-ba39-5b030c92c173.jpg'
     ],
     galleryDescriptions: [
-      'Главный фасад со вторым светом',
-      'Боковая терраса и входная группа',
-      'Задний вид с панорамным остеклением',
-      'Вид на дом с угла участка'
+      'Главный фасад с панорамными окнами и вторым светом',
+      'Боковой вид с входной группой и спальнями',
+      'Задний фасад с окнами спален 11-16 м²',
+      'Угловой вид с кухней-гостиной 23-33 м²'
     ],
   },
   {
