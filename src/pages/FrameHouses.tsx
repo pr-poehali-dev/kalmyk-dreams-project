@@ -23,6 +23,12 @@ const projects = [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e9ecb41-6b0d-4183-b363-9175f6f8eb4e.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c47ea41a-a0eb-4542-80bf-0d12eabf2b49.jpg'
     ],
+    galleryDescriptions: [
+      'Фасад дома с панорамными окнами',
+      'Вид сбоку на террасу',
+      'Вечерняя подсветка фасада',
+      'Общий вид дома в лесу'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/e3d78a7b-d218-40f8-b337-309f58bf8d9f.jpg',
@@ -40,6 +46,12 @@ const projects = [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/6fdb4df7-cc7d-4589-898f-235a3f599a3e.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/b5fa680b-4d77-4d53-9b2e-7118ca8034f5.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/5755eca5-7291-45d8-98a1-d7367c31842e.jpg'
+    ],
+    galleryDescriptions: [
+      'Главный фасад со вторым светом',
+      'Боковая терраса и входная группа',
+      'Задний вид с панорамным остеклением',
+      'Вид на дом с угла участка'
     ],
   },
   {
@@ -62,6 +74,15 @@ const projects = [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/c9dc4aa7-252f-4c34-bac2-0921467473e8.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e716922-9b8b-406a-8c8d-9e2ee8c097f1.jpg'
     ],
+    galleryDescriptions: [
+      'Главный фасад одноэтажного дома',
+      'Вид на террасу и панорамные окна',
+      'Боковой фасад с высокими потолками',
+      'Задняя часть дома с остеклением',
+      'Вечерний вид с подсветкой',
+      'Боковой вход в дом',
+      'Входная группа и терраса'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9be8d358-c547-4ecd-b4e6-3421f0dedbec.jpg',
@@ -79,6 +100,12 @@ const projects = [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/33967ff7-e409-4ecd-bcce-df5c355c59d4.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/4587ead7-b30d-40a7-86d8-9019e79fa96b.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/51d40278-27a8-4d1d-ac56-c2cb8bd40a90.jpg'
+    ],
+    galleryDescriptions: [
+      'Фасад с большой террасой',
+      'Вид сбоку на дом в лесу',
+      'Панорамные окна кухни-гостиной',
+      'Задний фасад и терраса'
     ],
   },
   {
@@ -98,6 +125,12 @@ const projects = [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/f7e5f96f-dbf6-4b22-8429-8f1953d6ccbd.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/03988cd6-4597-4881-b110-6114c1e5d641.jpg'
     ],
+    galleryDescriptions: [
+      'Классический А-фрейм фасад',
+      'Боковой вид треугольной формы',
+      'Задняя часть с остеклением',
+      'Вход в дом и терраса'
+    ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/9e78c6da-414d-4a20-a43f-18b22876df8f.jpg',
@@ -115,6 +148,12 @@ const projects = [
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/83bc4620-c460-4843-9f78-ff20541a667d.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/e0f01d60-ab1c-4b50-b30f-217b5f0f7ca3.jpg',
       'https://cdn.poehali.dev/projects/ba2bc4a9-4f18-428c-9910-30dd42a4e38f/files/3d7b3130-fe95-40cc-9bd5-949c0ed9d442.jpg'
+    ],
+    galleryDescriptions: [
+      'Главный фасад со второй террасой',
+      'Боковой фасад с большими окнами',
+      'Вид на заднюю часть дома',
+      'Панорамный вид участка с домом'
     ],
   },
 ];
@@ -655,7 +694,10 @@ const FrameHouses = () => {
             
             <div className="mt-6 text-center text-white">
               <h3 className="font-heading font-bold text-2xl mb-2">{selectedProject.name}</h3>
-              <p className="text-white/80">
+              <p className="text-white/90 text-lg mb-1">
+                {(selectedProject as any).galleryDescriptions?.[currentImageIndex] || selectedProject.description}
+              </p>
+              <p className="text-white/60 text-sm">
                 Изображение {currentImageIndex + 1} из {selectedProject.gallery?.length || 1}
               </p>
             </div>
