@@ -538,6 +538,15 @@ export default function Index() {
                         <p className="text-muted-foreground">al-serbin@mail.ru</p>
                       </div>
                     </div>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Icon name="Globe" size={24} className="text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-heading font-bold mb-1">Сайт</h4>
+                        <a href="https://al-serbin.ru/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">al-serbin.ru</a>
+                      </div>
+                    </div>
                   </div>
                   <div className="space-y-4">
                     <div>
